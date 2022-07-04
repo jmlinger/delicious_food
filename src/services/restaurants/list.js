@@ -5,7 +5,7 @@ const Models = require('../../database/models');
 const { Op } = Sequelize;
 
 // eslint-disable-next-line max-lines-per-function
-module.exports = async (search) => {
+module.exports = async (search = '') => {
   const restaurantsByName = await Models.restaurants.findAll({
     where: {
       name: {
