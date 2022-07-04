@@ -25,5 +25,7 @@ module.exports = async (user) => {
 
   const token = genToken(newUser);
 
+  delete newUser.dataValues.password;
+
   return { status: StatusCodes.CREATED, message: { token, user: newUser } };
 };
