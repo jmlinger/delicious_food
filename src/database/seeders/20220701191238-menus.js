@@ -214,7 +214,7 @@ module.exports = {
       {
         restaurant_id: 3,
         name: 'Salada do buda',
-        description: 'Quinoa, mushrooms, lettuce, red cabbage, spinach, cucumbers, tomatoes',
+        description: 'Quinoa, cogumelos, alface, repolho roxo, espinafre, pepino, tomates',
         price: 25.00,
         image: 'https://www.freepik.com/free-photo/quinoa-mushrooms-lettuce-red-cabbage-spinach-cucumbers-tomatoes-buddha-bowl_10480624.htm?query=vegan%20food',
         category: 'refeição',

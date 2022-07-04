@@ -10,7 +10,7 @@ module.exports = (sequelize, DataTypes) => {
 
   restaurants.associate = (models) => {
     restaurants.hasMany(models.menus,
-      { foreignKey: 'id', as: 'restaurant' });
+      { foreignKey: 'restaurantId', as: 'menu' });
   };
 
   return restaurants;
