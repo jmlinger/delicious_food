@@ -3,7 +3,6 @@ const Models = require('../../database/models');
 const { encryptPassword } = require('../../utils/bcryptServices');
 const { INVALID_ENTRIES, ALREADY_REGISTERED } = require('../../utils/errorSet');
 const { registerValidation } = require('../../utils/validations/register');
-const { genToken } = require('../auth');
 
 module.exports = async (user) => {
   const validationError = registerValidation(user);
@@ -21,11 +20,7 @@ module.exports = async (user) => {
       return ALREADY_REGISTERED;
   }
 
-  const newUser = await Models.users.create({ name, email, address, password: passwordHash });
+  await Models.users.create({ name, email, address, password: passwordHash });
 
-  const token = genToken(newUser);
-
-  delete newUser.dataValues.password;
-
-  return { status: StatusCodes.CREATED, message: { token, user: newUser } };
+  return { status: StatusCodes.CREATED };
 };
