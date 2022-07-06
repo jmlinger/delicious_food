@@ -25,10 +25,16 @@ const UNAUTHORIZED_USER = {
   message: 'Unauthorized user',
 };
 
+const USER_NOT_EXISTS = {
+  status: StatusCodes.UNAUTHORIZED,
+  message: 'User not exists',
+};
+
 module.exports = {
   INVALID_ENTRIES,
   ALREADY_REGISTERED,
   INVALID_FIELDS,
   INVALID_LOGIN,
   UNAUTHORIZED_USER,
+  USER_NOT_EXISTS,
 };
