@@ -1,14 +1,13 @@
 const express = require('express');
 const rescue = require('express-rescue');
 
+const { auth } = require('../../middlewares');
 const create = require('./create');
-const login = require('./login');
-const update = require('./update');
+const remove = require('./remove');
 
 const router = express.Router({ mergeParams: true });
 
-router.post('/register', rescue(create));
-router.post('/login', rescue(login));
-router.put('/update', rescue(update));
+router.post('/', rescue(auth), rescue(create));
+router.delete('/:id', rescue(auth), rescue(remove));
 
 module.exports = router;
