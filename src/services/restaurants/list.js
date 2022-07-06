@@ -12,13 +12,14 @@ function restIsUserFav(restaurants, userId, favOn) {
     const userFavRests = verifiedRest.filter(({ favUsers }) => favUsers);
     return userFavRests;
   }
-  
+
   return verifiedRest;
 }
 
 // eslint-disable-next-line max-lines-per-function
-module.exports = async (query) => {
-  const { search, userId, favOn } = query;
+module.exports = async (query, user) => {
+  const { search, favOn } = query;
+  const { id: userId } = user;
 
   let restaurantsByName = await Models.restaurants.findAll({
     where: {

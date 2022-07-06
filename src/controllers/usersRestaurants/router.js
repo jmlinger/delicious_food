@@ -8,6 +8,6 @@ const remove = require('./remove');
 const router = express.Router({ mergeParams: true });
 
 router.post('/', rescue(auth), rescue(create));
-router.delete('/', rescue(auth), rescue(remove));
+router.delete('/:id', rescue(auth), rescue(remove));
 
 module.exports = router;
