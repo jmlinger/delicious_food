@@ -8,7 +8,7 @@ module.exports = {
         name: 'Prato simples',
         description: 'Carne assada com molho, legumes e batatas fritas ',
         price: 22.00,
-        image: 'https://www.freepik.com/free-photo/closeup-roasted-meat-with-sauce-vegetables-fries-plate-table_14191900.htm#query=brazilian%20food&position=0&from_view=search',
+        image: 'https://img.freepik.com/free-photo/closeup-roasted-meat-with-sauce-vegetables-fries-plate-table_181624-35847.jpg',
         category: 'refeição',
       },
       {
@@ -16,7 +16,7 @@ module.exports = {
         name: 'Suco de laranja',
         description: 'Laranja, água',
         price: 7.00,
-        image: 'https://www.freepik.com/free-photo/healthy-food-carrots-carrot-juice-with-orange-glass-jar-metal-basket-dark-wooden-background-copy-space_22756589.htm#&position=11&from_view=detail#query=v&position=11&from_view=detail',
+        image: 'https://img.freepik.com/free-photo/healthy-food-carrots-carrot-juice-with-orange-glass-jar-metal-basket-dark-wooden-background-copy-space_127032-2366.jpg',
         category: 'bebida',
       },
       {
@@ -24,7 +24,7 @@ module.exports = {
         name: 'Prato simples 2',
         description: 'Arroz, salada de tomate com alface, ovo cozido, farofa e feijão',
         price: 20.00,
-        image: 'https://www.freepik.com/free-photo/high-angle-delicious-brazilian-food-composition_10893934.htm#page=4&query=brazilian%20food&position=30&from_view=search',
+        image: 'https://img.freepik.com/free-photo/high-angle-delicious-brazilian-food-composition_23-2148739223.jpg',
         category: 'refeição',
       },
       {
@@ -32,7 +32,7 @@ module.exports = {
         name: 'Macarrão com almôndegas',
         description: 'macarrão penne, molho de tomate, manjericão e almôndegas',
         price: 20.00,
-        image: 'https://www.freepik.com/free-photo/penne-pasta-with-meatballs-tomato-sauce-white-bowl_6765481.htm#page=2&query=comida%20brasileira&position=6&from_view=search',
+        image: 'https://img.freepik.com/free-photo/penne-pasta-with-meatballs-tomato-sauce-white-bowl_2829-7663.jpg',
         category: 'refeição',
       },
       {
@@ -40,7 +40,7 @@ module.exports = {
         name: 'Prato simples 3',
         description: 'Frango ao molho de tomate com salsinha, arroz',
         price: 22.00,
-        image:'https://www.freepik.com/free-photo/delicious-brazilian-dish-top-view_12781551.htm#page=2&query=comida%20brasileira&position=10&from_view=search',
+        image:'https://img.freepik.com/free-photo/delicious-brazilian-dish-top-view_23-2148875275.jpg',
         category: 'refeição',
       },
       {
@@ -48,7 +48,7 @@ module.exports = {
         name: 'Macarronada',
         description: 'Macarrão estilo conchas com cogumelos, abobrinha e molho de tomate',
         price: 22.00,
-        image: 'https://www.freepik.com/free-photo/italian-pasta-shells-with-mushrooms-zucchini-tomato-sauce_6933024.htm#query=vegan%20dishes&position=33&from_view=search',
+        image: 'https://img.freepik.com/free-photo/italian-pasta-shells-with-mushrooms-zucchini-tomato-sauce_2829-10882.jpg',
         category: 'refeição',
       },
       {
@@ -56,7 +56,7 @@ module.exports = {
         name: 'Prato simples 4',
         description: 'Pedaços de filé de frango com cogumelos ao molho de tomate com brócolis cozido e arroz.',
         price: 25.00,
-        image: 'https://www.freepik.com/free-photo/pieces-chicken-fillet-with-mushrooms-stewed-tomato-sauce-with-boiled-broccoli-rice-proper-nutrition-healthy-lifestyle-dietetic-menu-top-view_7698234.htm#page=2&query=comida%20brasileira&position=16&from_view=search#position=16&page=2&query=comida%20brasileira',
+        image: 'https://img.freepik.com/free-photo/pieces-chicken-fillet-with-mushrooms-stewed-tomato-sauce-with-boiled-broccoli-rice-proper-nutrition-healthy-lifestyle-dietetic-menu-top-view_2829-20015.jpg',
         category: 'refeição',
       },
       {
@@ -64,7 +64,7 @@ module.exports = {
         name: 'Feijoada da casa',
         description: 'feijoada completa',
         price: 30.00,
-        image: 'https://www.freepik.com/free-photo/delicious-brazilian-food-arrangement-top-view_12781540.htm#query=comida%20brasileira&position=13&from_view=search',
+        image: 'https://img.freepik.com/free-photo/delicious-brazilian-food-arrangement-top-view_23-2148875291.jpg',
         category: 'refeição',
       },
       {
@@ -88,7 +88,7 @@ module.exports = {
         name: 'Macarrão ao molho Pesto',
         description: 'Macarrão penne com molho pesto, abobrinha, ervilhas verdes e manjericão',
         price: 22.00,
-        image: 'https://www.freepik.com/free-photo/penne-pasta-with-pesto-sauce-zucchini-green-peas-basil-italian-food-top-view-flat-lay_7676286.htm#&position=1&from_view=detail#query=v&position=1&from_view=detail#position=1',
+        image: 'https://img.freepik.com/free-photo/penne-pasta-with-pesto-sauce-zucchini-green-peas-basil-italian-food-top-view-flat-lay_2829-19577.jpg',
         category: 'refeição',
       },
       {
@@ -96,7 +96,7 @@ module.exports = {
         name: 'Suco de laranja',
         description: 'Laranja, água',
         price: 7.00,
-        image: 'https://www.freepik.com/free-photo/healthy-food-carrots-carrot-juice-with-orange-glass-jar-metal-basket-dark-wooden-background-copy-space_22756589.htm#&position=11&from_view=detail#query=v&position=11&from_view=detail',
+        image: 'https://img.freepik.com/free-photo/healthy-food-carrots-carrot-juice-with-orange-glass-jar-metal-basket-dark-wooden-background-copy-space_127032-2366.jpg',
         category: 'bebida',
       },
       {
@@ -104,7 +104,7 @@ module.exports = {
         name: 'Macarrão com carne moída',
         description: 'Macarrão penne em molho de tomate com carne, tomate decorado com brotos de ervilha',
         price: 18.00,
-        image: 'https://www.freepik.com/premium-photo/penne-pasta-tomato-sauce-with-meat-tomatoes-decorated-with-pea-sprouts-dark-table_5229999.htm?query=vegan%20dishes',
+        image: 'https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-meat-tomatoes-decorated-with-pea-sprouts-dark-table_2829-3411.jpg',
         category: 'refeição',
       },
       {
@@ -112,15 +112,15 @@ module.exports = {
         name: 'Pizza Vegetariana',
         description: 'Pizza vegetariana com abobrinha, tomate, pimentão e cogumelos',
         price: 30.00,
-        image: 'https://www.freepik.com/free-photo/vegetarian-pizza-with-zucchini-tomato-peppers-mushrooms-wooden-table_28032616.htm#page=2&query=vegan%20dishes&position=25&from_view=search',
+        image: 'https://img.freepik.com/free-photo/vegetarian-pizza-with-zucchini-tomato-peppers-mushrooms-wooden-table_123827-21877.jpg',
         category: 'refeição',
       },
       {
         restaurant_id: 2,
-        name: 'Pizza de salami',
+        name: 'Pizza de salame',
         description: 'Pizza recheada com tomate, salame e azeitonas',
         price: 35.00,
-        image:'https://www.freepik.com/free-photo/pizza-pizza-filled-with-tomatoes-salami-olives_6087618.htm#query=italian%20food&position=49&from_view=search',
+        image:'https://img.freepik.com/free-photo/pizza-pizza-filled-with-tomatoes-salami-olives_140725-1200.jpg',
         category: 'refeição',
       },
       {
@@ -128,7 +128,7 @@ module.exports = {
         name: 'Lasanha a Bolonhesa',
         description: 'Molho branco, carne moída, tomate, queijo parmesão, mussarela',
         price: 36.00,
-        image: 'https://www.freepik.com/free-photo/classic-lasagna-with-bolognese-sauce_6963570.htm#page=2&query=italian%20dishes&position=30&from_view=search',
+        image: 'https://img.freepik.com/free-photo/classic-lasagna-with-bolognese-sauce_2829-11251.jpg',
         category: 'refeição',
       },
       {
@@ -136,7 +136,7 @@ module.exports = {
         name: 'Spaguetti com bacon',
         description: 'Espaguete com bacon, cogumelos e massa',
         price: 25.00,
-        image: 'https://www.freepik.com/free-photo/bacon-spaghetti-mushrooms-pasta_1171160.htm#page=2&query=italian%20dishes&position=38&from_view=search',
+        image: 'https://img.freepik.com/free-photo/bacon-spaghetti-mushrooms-pasta_1417-169.jpg',
         category: 'refeição',
       },
       {
@@ -144,7 +144,7 @@ module.exports = {
         name: 'Nhoque Rústico',
         description: 'batata inglesa, sal, tomates, alho e manjericão',
         price: 25.00,
-        image: 'https://www.freepik.com/free-photo/gnocchi-pasta-rustic-style-italian-cuisine-vegetarian-vegetable-pasta-cooking-lunch-gourmet-dish-top-view_7379755.htm?query=vegan%20dishes',
+        image: 'https://img.freepik.com/free-photo/gnocchi-pasta-rustic-style-italian-cuisine-vegetarian-vegetable-pasta-cooking-lunch-gourmet-dish-top-view_2829-17219.jpg',
         category: 'refeição',
       },
       {
@@ -176,7 +176,7 @@ module.exports = {
         name: 'Suco de laranja',
         description: 'Laranja, água',
         price: 7.00,
-        image: 'https://www.freepik.com/free-photo/healthy-food-carrots-carrot-juice-with-orange-glass-jar-metal-basket-dark-wooden-background-copy-space_22756589.htm#&position=11&from_view=detail#query=v&position=11&from_view=detail',
+        image: 'https://img.freepik.com/free-photo/healthy-food-carrots-carrot-juice-with-orange-glass-jar-metal-basket-dark-wooden-background-copy-space_127032-2366.jpg',
         category: 'bebida',
       },
       {
@@ -184,7 +184,7 @@ module.exports = {
         name: 'Tortilla',
         description: 'Tortilla envolvida com falafel e salada fresca de alface, tomate, cebola e cebolinha',
         price: 15.00,
-        image: 'https://www.freepik.com/free-photo/tortilla-wrap-with-falafel-fresh-salad-vegan-tacos-vegetarian-healthy-food_6677531.htm#query=vegan%20food&position=0&from_view=search',
+        image: 'https://img.freepik.com/free-photo/tortilla-wrap-with-falafel-fresh-salad-vegan-tacos-vegetarian-healthy-food_2829-6193.jpg',
         category: 'refeição',
       },
       {
@@ -192,7 +192,7 @@ module.exports = {
         name: 'Salada Dietética',
         description: 'brócolis, cogumelos, espinafre e quinoa',
         price: 20.00,
-        image: 'https://www.freepik.com/free-photo/dietary-menu-healthy-vegan-salad-vegetables-broccoli-mushrooms-spinach-quinoa-bowl-flat-lay-top-view_7701184.htm#query=vegan%20food&position=37&from_view=search',
+        image: 'https://img.freepik.com/free-photo/dietary-menu-healthy-vegan-salad-vegetables-broccoli-mushrooms-spinach-quinoa-bowl-flat-lay-top-view_2829-20115.jpg',
         category: 'refeição',
       },
       {
@@ -200,7 +200,7 @@ module.exports = {
         name: 'Salada Grega',
         description: 'Salada grega com vegetais frescos, pepino, tomate, pimenta, alface, cebola roxa, queijo feta e azeitonas com azeite de oliva',
         price: '22.00',
-        image:'https://www.freepik.com/free-photo/classic-greek-salad-fresh-vegetables-cucumber-tomato-sweet-pepper-lettuce-red-onion-feta-cheese-olives-with-olive-oil-healthy-food-top-view_14630198.htm#query=vegan%20dishes&position=17&from_view=search',
+        image:'https://img.freepik.com/free-photo/classic-greek-salad-fresh-vegetables-cucumber-tomato-sweet-pepper-lettuce-red-onion-feta-cheese-olives-with-olive-oil-healthy-food-top-view_1150-44877.jpg',
         category: 'refeição',
       },
       {
@@ -208,7 +208,7 @@ module.exports = {
         name: 'Macarronada',
         description: 'Macarrão estilo conchas com cogumelos, abobrinha e molho de tomate',
         price: 22.00,
-        image: 'https://www.freepik.com/free-photo/italian-pasta-shells-with-mushrooms-zucchini-tomato-sauce_6933024.htm#query=vegan%20dishes&position=33&from_view=search',
+        image: 'https://img.freepik.com/free-photo/italian-pasta-shells-with-mushrooms-zucchini-tomato-sauce_2829-10882.jpg',
         category: 'refeição',
       },
       {
@@ -216,7 +216,7 @@ module.exports = {
         name: 'Salada do buda',
         description: 'Quinoa, cogumelos, alface, repolho roxo, espinafre, pepino, tomates',
         price: 25.00,
-        image: 'https://www.freepik.com/free-photo/quinoa-mushrooms-lettuce-red-cabbage-spinach-cucumbers-tomatoes-buddha-bowl_10480624.htm?query=vegan%20food',
+        image: 'https://img.freepik.com/free-photo/quinoa-mushrooms-lettuce-red-cabbage-spinach-cucumbers-tomatoes-buddha-bowl_127032-1989.jpg',
         category: 'refeição',
       },
       {
@@ -224,7 +224,7 @@ module.exports = {
         name: 'Nhoque Rústico',
         description: 'batata inglesa, farinha de trigo, sal, tomates, alho e manjericão',
         price: 25.00,
-        image: 'https://www.freepik.com/free-photo/gnocchi-pasta-rustic-style-italian-cuisine-vegetarian-vegetable-pasta-cooking-lunch-gourmet-dish-top-view_7379755.htm?query=vegan%20dishes',
+        image: 'https://img.freepik.com/free-photo/gnocchi-pasta-rustic-style-italian-cuisine-vegetarian-vegetable-pasta-cooking-lunch-gourmet-dish-top-view_2829-17219.jpg',
         category: 'refeição',
       },
       {
@@ -240,7 +240,7 @@ module.exports = {
         name: 'Prato com curry',
         description: 'curry, tofu, tomate, ervilha, brocolis, cenoura, pimentão',
         price: 32.00,
-        image: 'https://www.freepik.com/free-photo/vegan-curry-with-tofu-vegetables_28007318.htm#page=2&query=vegan%20dishes&position=42&from_view=search',
+        image: 'https://img.freepik.com/free-photo/vegan-curry-with-tofu-vegetables_661915-287.jpg',
         category: 'refeição',
       },
       {
@@ -256,7 +256,7 @@ module.exports = {
         name: 'Suco de laranja',
         description: 'Laranja, água',
         price: 7.00,
-        image: 'https://www.freepik.com/free-photo/healthy-food-carrots-carrot-juice-with-orange-glass-jar-metal-basket-dark-wooden-background-copy-space_22756589.htm#&position=11&from_view=detail#query=v&position=11&from_view=detail',
+        image: 'https://img.freepik.com/free-photo/healthy-food-carrots-carrot-juice-with-orange-glass-jar-metal-basket-dark-wooden-background-copy-space_127032-2366.jpg',
         category: 'bebida',
       },
       {
@@ -264,7 +264,7 @@ module.exports = {
         name: 'Hot Roll',
         description: '6 unidades de sushi rolls de salmão',
         price: 15.00,
-        image: 'https://www.freepik.com/free-photo/side-view-fried-sushi-rolls-with-wasabi-ginger-stand_9477821.htm#&position=13&from_view=detail#&position=13&from_view=detail',
+        image: 'https://img.freepik.com/free-photo/side-view-fried-sushi-rolls-with-wasabi-ginger-stand_141793-13000.jpg',
         category: 'refeição',
       },
       {
@@ -336,7 +336,7 @@ module.exports = {
         name: 'Suco de laranja',
         description: 'Laranja, água',
         price: 7.00,
-        image: 'https://www.freepik.com/free-photo/healthy-food-carrots-carrot-juice-with-orange-glass-jar-metal-basket-dark-wooden-background-copy-space_22756589.htm#&position=11&from_view=detail#query=v&position=11&from_view=detail',
+        image: 'https://img.freepik.com/free-photo/healthy-food-carrots-carrot-juice-with-orange-glass-jar-metal-basket-dark-wooden-background-copy-space_127032-2366.jpg',
         category: 'bebida',
       },
       {
@@ -344,7 +344,7 @@ module.exports = {
         name: 'Porção de Batata frita',
         description: 'Porção de batata frita',
         price: 15.00,
-        image: 'https://www.freepik.com/free-photo/crispy-french-fries-with-ketchup-mayonnaise_10401244.htm#page=2&query=comida%20de%20boteco&position=5&from_view=search',
+        image: 'https://img.freepik.com/free-photo/crispy-french-fries-with-ketchup-mayonnaise_1150-26588.jpg',
         category: 'refeição',
       },
       {
@@ -352,7 +352,7 @@ module.exports = {
         name: 'Porção de coxinhas',
         description: '5 Coxinhas de frango com catupiry',
         price: 20.00,
-        image: 'https://www.freepik.com/free-photo/coxinha-brazilian-snack-with-bar-space_10326201.htm',
+        image: 'https://img.freepik.com/free-photo/coxinha-brazilian-snack-with-bar-space_306105-705.jpg',
         category: 'refeição',
       },
       {
@@ -360,7 +360,7 @@ module.exports = {
         name: 'Porção de tiras de frango frito',
         description: 'Frango frito empanado crocante',
         price: 24.00,
-        image:'https://www.freepik.com/free-photo/crispy-fried-chicken-middle-mixed-color-background_16760259.htm?query=comida%20de%20boteco',
+        image:'https://img.freepik.com/free-photo/crispy-fried-chicken-middle-mixed-color-background_140725-114759.jpg',
         category: 'refeição',
       },
       {
