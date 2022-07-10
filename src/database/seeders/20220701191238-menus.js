@@ -16,7 +16,7 @@ module.exports = {
         name: 'Suco de laranja',
         description: 'Laranja, água',
         price: 7.00,
-        image: 'https://img.freepik.com/free-photo/healthy-food-carrots-carrot-juice-with-orange-glass-jar-metal-basket-dark-wooden-background-copy-space_127032-2366.jpg',
+        image: 'https://img.freepik.com/free-photo/glass-orange-juice-placed-wood_1150-9666.jpg',
         category: 'bebida',
       },
       {
@@ -62,7 +62,7 @@ module.exports = {
       {
         restaurant_id: 1,
         name: 'Feijoada da casa',
-        description: 'feijoada completa',
+        description: 'Feijoada completa',
         price: 30.00,
         image: 'https://img.freepik.com/free-photo/delicious-brazilian-food-arrangement-top-view_23-2148875291.jpg',
         category: 'refeição',
@@ -72,7 +72,7 @@ module.exports = {
         name: 'Água',
         description: '500ml',
         price: 2.50,
-        image: 'https://static8.depositphotos.com/1050070/827/i/950/depositphotos_8279395-stock-photo-bottles-of-water.jpg',
+        image: 'https://img.freepik.com/free-psd/fresh-water-bottle-mockup_358694-279.jpg',
         category: 'bebida',
       },
       {
@@ -81,6 +81,22 @@ module.exports = {
         description: 'Coca-cola, Fanta laranja, Sprite, Guaraná Antarctica, 500ml',
         price: 3.5,
         image: 'https://st3.depositphotos.com/1063437/16054/i/1600/depositphotos_160546204-stock-photo-bottles-of-assorted-global-soft.jpg',
+        category: 'bebida',
+      },
+      {
+        restaurant_id: 1,
+        name: 'Chop',
+        description: 'Chop, 500ml',
+        price: 8.00,
+        image: 'https://img.freepik.com/free-psd/product-beer-bar-mockup_23-2149225283.jpg',
+        category: 'bebida',
+      },
+      {
+        restaurant_id: 1,
+        name: 'Suco de limão',
+        description: 'Limão e água',
+        price: 7.00,
+        image: 'https://img.freepik.com/free-photo/fresh-lime-drinks-macro-shot_53876-42483.jpg',
         category: 'bebida',
       },
       {
@@ -96,7 +112,7 @@ module.exports = {
         name: 'Suco de laranja',
         description: 'Laranja, água',
         price: 7.00,
-        image: 'https://img.freepik.com/free-photo/healthy-food-carrots-carrot-juice-with-orange-glass-jar-metal-basket-dark-wooden-background-copy-space_127032-2366.jpg',
+        image: 'https://img.freepik.com/free-photo/glass-orange-juice-placed-wood_1150-9666.jpg',
         category: 'bebida',
       },
       {
@@ -142,7 +158,7 @@ module.exports = {
       {
         restaurant_id: 2,
         name: 'Nhoque Rústico',
-        description: 'batata inglesa, sal, tomates, alho e manjericão',
+        description: 'Batata inglesa, sal, tomates, alho e manjericão',
         price: 25.00,
         image: 'https://img.freepik.com/free-photo/gnocchi-pasta-rustic-style-italian-cuisine-vegetarian-vegetable-pasta-cooking-lunch-gourmet-dish-top-view_2829-17219.jpg',
         category: 'refeição',
@@ -152,7 +168,7 @@ module.exports = {
         name: 'Água',
         description: '500ml',
         price: 2.50,
-        image: 'https://static8.depositphotos.com/1050070/827/i/950/depositphotos_8279395-stock-photo-bottles-of-water.jpg',
+        image: 'https://img.freepik.com/free-psd/fresh-water-bottle-mockup_358694-279.jpg',
         category: 'bebida',
       },
       {
@@ -161,6 +177,22 @@ module.exports = {
         description: 'Coca-cola, Fanta laranja, Sprite, Guaraná Antarctica, 500ml',
         price: 3.5,
         image: 'https://st3.depositphotos.com/1063437/16054/i/1600/depositphotos_160546204-stock-photo-bottles-of-assorted-global-soft.jpg',
+        category: 'bebida',
+      },
+      {
+        restaurant_id: 2,
+        name: 'Chop',
+        description: 'Chop, 500ml',
+        price: 8.00,
+        image: 'https://img.freepik.com/free-psd/product-beer-bar-mockup_23-2149225283.jpg',
+        category: 'bebida',
+      },
+      {
+        restaurant_id: 2,
+        name: 'Suco de limão',
+        description: 'Limão e água',
+        price: 7.00,
+        image: 'https://img.freepik.com/free-photo/fresh-lime-drinks-macro-shot_53876-42483.jpg',
         category: 'bebida',
       },
       {
@@ -176,7 +208,7 @@ module.exports = {
         name: 'Suco de laranja',
         description: 'Laranja, água',
         price: 7.00,
-        image: 'https://img.freepik.com/free-photo/healthy-food-carrots-carrot-juice-with-orange-glass-jar-metal-basket-dark-wooden-background-copy-space_127032-2366.jpg',
+        image: 'https://img.freepik.com/free-photo/glass-orange-juice-placed-wood_1150-9666.jpg',
         category: 'bebida',
       },
       {
@@ -190,7 +222,7 @@ module.exports = {
       {
         restaurant_id: 3,
         name: 'Salada Dietética',
-        description: 'brócolis, cogumelos, espinafre e quinoa',
+        description: 'Brócolis, cogumelos, espinafre e quinoa',
         price: 20.00,
         image: 'https://img.freepik.com/free-photo/dietary-menu-healthy-vegan-salad-vegetables-broccoli-mushrooms-spinach-quinoa-bowl-flat-lay-top-view_2829-20115.jpg',
         category: 'refeição',
@@ -198,7 +230,7 @@ module.exports = {
       {
         restaurant_id: 3,
         name: 'Salada Grega',
-        description: 'Salada grega com vegetais frescos, pepino, tomate, pimenta, alface, cebola roxa, queijo feta e azeitonas com azeite de oliva',
+        description: 'Salada de pepino, tomate, pimenta, alface, cebola roxa, queijo feta, azeitonas e azeite de oliva',
         price: '22.00',
         image:'https://img.freepik.com/free-photo/classic-greek-salad-fresh-vegetables-cucumber-tomato-sweet-pepper-lettuce-red-onion-feta-cheese-olives-with-olive-oil-healthy-food-top-view_1150-44877.jpg',
         category: 'refeição',
@@ -222,7 +254,7 @@ module.exports = {
       {
         restaurant_id: 3,
         name: 'Nhoque Rústico',
-        description: 'batata inglesa, farinha de trigo, sal, tomates, alho e manjericão',
+        description: 'Batata inglesa, farinha de trigo, sal, tomates, alho e manjericão',
         price: 25.00,
         image: 'https://img.freepik.com/free-photo/gnocchi-pasta-rustic-style-italian-cuisine-vegetarian-vegetable-pasta-cooking-lunch-gourmet-dish-top-view_2829-17219.jpg',
         category: 'refeição',
@@ -232,16 +264,32 @@ module.exports = {
         name: 'Água',
         description: '500ml',
         price: 2.50,
-        image: 'https://static8.depositphotos.com/1050070/827/i/950/depositphotos_8279395-stock-photo-bottles-of-water.jpg',
+        image: 'https://img.freepik.com/free-psd/fresh-water-bottle-mockup_358694-279.jpg',
         category: 'bebida',
       },
       {
         restaurant_id: 3,
         name: 'Prato com curry',
-        description: 'curry, tofu, tomate, ervilha, brocolis, cenoura, pimentão',
+        description: 'Curry, tofu, tomate, ervilha, brocolis, cenoura, pimentão',
         price: 32.00,
         image: 'https://img.freepik.com/free-photo/vegan-curry-with-tofu-vegetables_661915-287.jpg',
         category: 'refeição',
+      },
+      {
+        restaurant_id: 3,
+        name: 'Chop',
+        description: 'Chop, 500ml',
+        price: 8.00,
+        image: 'https://img.freepik.com/free-psd/product-beer-bar-mockup_23-2149225283.jpg',
+        category: 'bebida',
+      },
+      {
+        restaurant_id: 3,
+        name: 'Suco de limão',
+        description: 'Limão e água',
+        price: 7.00,
+        image: 'https://img.freepik.com/free-photo/fresh-lime-drinks-macro-shot_53876-42483.jpg',
+        category: 'bebida',
       },
       {
         restaurant_id: 4,
@@ -256,7 +304,7 @@ module.exports = {
         name: 'Suco de laranja',
         description: 'Laranja, água',
         price: 7.00,
-        image: 'https://img.freepik.com/free-photo/healthy-food-carrots-carrot-juice-with-orange-glass-jar-metal-basket-dark-wooden-background-copy-space_127032-2366.jpg',
+        image: 'https://img.freepik.com/free-photo/glass-orange-juice-placed-wood_1150-9666.jpg',
         category: 'bebida',
       },
       {
@@ -312,7 +360,7 @@ module.exports = {
         name: 'Água',
         description: '500ml',
         price: 2.50,
-        image: 'https://static8.depositphotos.com/1050070/827/i/950/depositphotos_8279395-stock-photo-bottles-of-water.jpg',
+        image: 'https://img.freepik.com/free-psd/fresh-water-bottle-mockup_358694-279.jpg',
         category: 'bebida',
       },
       {
@@ -322,6 +370,22 @@ module.exports = {
         price: 25.00,
         image: 'https://st2.depositphotos.com/2716431/10589/i/950/depositphotos_105897514-stock-photo-ramen-noodles-with-eggs-tofu.jpg',
         category: 'refeição',
+      },
+      {
+        restaurant_id: 4,
+        name: 'Chop',
+        description: 'Chop, 500ml',
+        price: 8.00,
+        image: 'https://img.freepik.com/free-psd/product-beer-bar-mockup_23-2149225283.jpg',
+        category: 'bebida',
+      },
+      {
+        restaurant_id: 4,
+        name: 'Suco de limão',
+        description: 'Limão e água',
+        price: 7.00,
+        image: 'https://img.freepik.com/free-photo/fresh-lime-drinks-macro-shot_53876-42483.jpg',
+        category: 'bebida',
       },
       {
         restaurant_id: 5,
@@ -336,7 +400,7 @@ module.exports = {
         name: 'Suco de laranja',
         description: 'Laranja, água',
         price: 7.00,
-        image: 'https://img.freepik.com/free-photo/healthy-food-carrots-carrot-juice-with-orange-glass-jar-metal-basket-dark-wooden-background-copy-space_127032-2366.jpg',
+        image: 'https://img.freepik.com/free-photo/glass-orange-juice-placed-wood_1150-9666.jpg',
         category: 'bebida',
       },
       {
@@ -392,7 +456,7 @@ module.exports = {
         name: 'Água',
         description: '500ml',
         price: 2.50,
-        image: 'https://static8.depositphotos.com/1050070/827/i/950/depositphotos_8279395-stock-photo-bottles-of-water.jpg',
+        image: 'https://img.freepik.com/free-psd/fresh-water-bottle-mockup_358694-279.jpg',
         category: 'bebida',
       },
       {
@@ -403,6 +467,22 @@ module.exports = {
         image: 'https://st2.depositphotos.com/4687049/6974/i/950/depositphotos_69746559-stock-photo-fried-pork-rinds.jpg',
         category: 'refeição',
       },
+      {
+        restaurant_id: 5,
+        name: 'Chop',
+        description: 'Chop, 500ml',
+        price: 8.00,
+        image: 'https://img.freepik.com/free-psd/product-beer-bar-mockup_23-2149225283.jpg',
+        category: 'bebida',
+      },
+      {
+        restaurant_id: 5,
+        name: 'Suco de limão',
+        description: 'Limão e água',
+        price: 7.00,
+        image: 'https://img.freepik.com/free-photo/fresh-lime-drinks-macro-shot_53876-42483.jpg',
+        category: 'bebida',
+      }
     ], {}),
 
   down: async (queryInterface) => queryInterface.bulkDelete('menus', null, {}),
