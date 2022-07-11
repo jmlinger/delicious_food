@@ -1,3 +1,6 @@
+/* eslint-disable no-param-reassign */
+/* eslint-disable no-unused-expressions */
+/* eslint-disable max-lines-per-function */
 const { StatusCodes } = require('http-status-codes');
 const Models = require('../../database/models');
 const { encryptPassword } = require('../../utils/bcryptServices');
@@ -10,25 +13,34 @@ module.exports = async (user) => {
   if (validationError) {
       return INVALID_ENTRIES(validationError.message);
   }
+
+  const findUser = await Models.users.findOne({ where: { id: user.id } });
   
-  const { id, name, email, address, password } = user;
-
-  const findUser = await Models.users.findOne({ where: { id } });
-
   if (!findUser) {
-      return USER_NOT_EXISTS;
+    return USER_NOT_EXISTS;
   }
-
-  const passwordHash = encryptPassword(password);
-
-  await Models.users.update(
-    { name, email, address, password: passwordHash },
-    { where: { id } },
-  );
   
-  const updatedUser = await Models.users.findOne({ where: { id }, exclude: { password } });
+  const delUserKeyRules = {
+    0: 'id',
+    1: 'name',
+    2: 'email',
+    3: 'address',
+    4: 'password',
+  };
 
-  delete updatedUser.dataValues.password;
+  Object.values(user).forEach((value, index) => !value && delete user[delUserKeyRules[index]]);
+  
+  user.password && (user.password = encryptPassword(user.password));
 
-  return { status: StatusCodes.CREATED, message: { updatedUser } };
+  findUser.set(
+    { ...user },
+  );
+
+  await findUser.save();
+  
+  const updatedUser = await Models.users.findOne(
+    { where: { id: user.id }, attributes: { exclude: ['password'] } },
+);
+
+  return { status: StatusCodes.CREATED, message: updatedUser };
 };

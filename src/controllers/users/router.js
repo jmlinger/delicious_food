@@ -10,6 +10,6 @@ const router = express.Router({ mergeParams: true });
 
 router.post('/register', rescue(create));
 router.post('/login', rescue(login));
-router.put('/update', rescue(auth), rescue(update));
+router.patch('/update', rescue(auth), rescue(update));
 
 module.exports = router;
