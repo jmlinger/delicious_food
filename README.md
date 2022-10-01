@@ -62,7 +62,7 @@ Acesse o repositório backend por <a href="https://github.com/jmlinger/delicious
 $ cd delicius_food
 
 # Vá para a back-end
-$ cd delicius_food_challenge_backend
+$ cd delicius_food_backend
 
 # Instale as dependências
 $ npm install
@@ -92,7 +92,7 @@ $ npm run start
 $ cd delicius_food
 
 # Vá para a front-end
-$ cd delicius_food_challenge_frontend
+$ cd delicius_food_frontend
 
 # Instale as dependências
 $ npm install
