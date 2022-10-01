@@ -2,10 +2,8 @@
 <br>
 
 # Descrição
-Aplicativo fullstack desenvolvido em React e Node.js que apresenta para o usuário as melhores opções de restaurantes mais próximos da sua localidade.
-
-Projeto desenvolvido como forma de critério avaliativo de etapa técnica do processo seletivo da empresa Grão Direto.
-<br><br>
+Aplicativo fullstack, totalmente responsivo, desenvolvido em React e Node.js que apresenta para o usuário as melhores opções de restaurantes.
+<br>
 
 # Stacks de Desenvolvimento
 
@@ -37,12 +35,15 @@ Projeto desenvolvido como forma de critério avaliativo de etapa técnica do pro
   <a href="https://sequelize.org/">
     <img src="https://img.shields.io/badge/Sequelize-339933?style=for-the-badge&logo=sequelize&color=black" />
   </a>
+    <a href="https://sequelize.org/">
+    <img src="http://jwt.io/img/logo-asset.svg" height="28px"/>
+  </a>
 </div>
 <br>
 
 # A aplicação em nuvem
 
-Acesse a aplicação alocada no Heroku por <a href="https://frontend-delicious-food-app.herokuapp.com/"> aqui <a/>.
+Acesse a aplicação alocada no Heroku por <a href="https://frontend-delicious-food-app.herokuapp.com/">aqui<a/>.
 
 <br>  
 
@@ -52,15 +53,16 @@ Acesse a aplicação alocada no Heroku por <a href="https://frontend-delicious-f
 Para começar é necessário você ter instalado em sua máquina as seguintes ferramentas: [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e [MySQL](https://dev.mysql.com/doc/). Além disto, é importante possuir um editor de código como [VSCode](https://code.visualstudio.com/).
 
 ### Rodando o servidor Back-End
+Acesse o repositório backend por <a href="https://github.com/jmlinger/delicious_food_backend/">aqui<a/>.
 
 ```bash
-# Clone este repositório com a chave SSH ou HTTP a depender de como seu git está configurado.
+# Clone o repositório backend com a chave SSH ou HTTP a depender de como seu git está configurado.
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd grao_direto
+$ cd delicius_food
 
 # Vá para a back-end
-$ cd grao_direto_challenge_backend
+$ cd delicius_food_challenge_backend
 
 # Instale as dependências
 $ npm install
@@ -72,8 +74,8 @@ $ npm install
 - MYSQL_PORT=3306
 - MYSQL_USER=(seu usuário mysql)
 - MYSQL_PASSWORD=(sua senha mysql)
-- MYSQL_DB_NAME=grao_direto_challenge
-- JWT_SECRET=grao_direto_challenge
+- MYSQL_DB_NAME=delicius_food_challenge
+- JWT_SECRET=delicius_food_challenge
 	
 # Execute a aplicação
 $ npm run start
@@ -87,10 +89,10 @@ $ npm run start
 # Clone este repositório com a chave SSH ou HTTP a depender de como seu git está configurado.
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd grao_direto
+$ cd delicius_food
 
 # Vá para a front-end
-$ cd cd grao_direto_challenge_frontend
+$ cd delicius_food_challenge_frontend
 
 # Instale as dependências
 $ npm install
@@ -144,3 +146,11 @@ Barra de navegação:
 Gerenciamento de Perfil (modal):
 - [x] Alteração de dados do usuário.
 - [x] Logout.
+
+<br>
+
+## Status
+
+<h3> 
+	🚧  Projeto finalizado 🚧
+</h3>
