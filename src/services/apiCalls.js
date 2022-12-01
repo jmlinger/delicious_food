@@ -22,7 +22,7 @@ const expireTokenCaseError = ({ response: { data } }) => {
 
 export const apiLogin = async (user) => {
   try {
-    const url = `${serverApiUrl}/users/login`;
+    const url = `${serverApiUrl}users/login`;
     const fetchApi = await axios.post(url, user);
     const response = await fetchApi.data;
 
@@ -34,7 +34,7 @@ export const apiLogin = async (user) => {
 
 export const apiRegister = async (newUser) => {
   try {
-    const url = `${serverApiUrl}/users/register`;
+    const url = `${serverApiUrl}users/register`;
 
     const fetchApi = await axios.post(url, newUser);
     const response = await fetchApi.data;
@@ -48,7 +48,7 @@ export const apiRegister = async (newUser) => {
 export const apiGetRestaurantsList = async (search, favOn) => {
   try {
     const { config } = globalApiVariables();
-    const url = `${serverApiUrl}/restaurants/search?search=${search}&favOn=${favOn}`;
+    const url = `${serverApiUrl}restaurants/search?search=${search}&favOn=${favOn}`;
 
     const fetchApi = await axios.get(url, config);
     const response = await fetchApi.data;
@@ -63,7 +63,7 @@ export const apiGetRestaurantsList = async (search, favOn) => {
 export const apiGetRestaurantById = async (id) => {
   try {
     const { config } = globalApiVariables();
-    const url = `${serverApiUrl}/restaurants/${id}`;
+    const url = `${serverApiUrl}restaurants/${id}`;
 
     const fetchAPI = await axios.get(url, config);
     const response = await fetchAPI.data;
@@ -78,7 +78,7 @@ export const apiGetRestaurantById = async (id) => {
 export const apiFavRes = async (restaurantId) => {
   try {
     const { config } = globalApiVariables();
-    const url = `${serverApiUrl}/favres`;
+    const url = `${serverApiUrl}favres`;
 
     const fetchAPI = await axios.post(url, { restaurantId: Number(restaurantId) }, config);
     const response = await fetchAPI.data;
@@ -93,7 +93,7 @@ export const apiFavRes = async (restaurantId) => {
 export const apiUnFavRes = async (id) => {
   try {
     const { config } = globalApiVariables();
-    const url = `${serverApiUrl}/favres/${id}`;
+    const url = `${serverApiUrl}favres/${id}`;
 
     const fetchAPI = await axios.delete(url, config);
     const response = await fetchAPI.data;
@@ -108,7 +108,7 @@ export const apiUnFavRes = async (id) => {
 export const apiUpdateRegister = async (user) => {
   try {
     const { config } = globalApiVariables();
-    const url = `${serverApiUrl}/users/update`;
+    const url = `${serverApiUrl}users/update`;
     const fetchAPI = await axios.patch(url, user, config);
     const response = await fetchAPI.data;
 
