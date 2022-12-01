@@ -43,7 +43,7 @@ Aplicativo fullstack, totalmente responsivo, desenvolvido em React e Node.js que
 
 # A aplicação em nuvem
 
-Acesse a aplicação alocada no Heroku por <a href="https://frontend-delicious-food-app.herokuapp.com/">aqui<a/>.
+Acesse a aplicação alocada no Vercel por <a href="https://delicious-food-frontend.vercel.app/">aqui<a/>.
 
 <br>  
 
