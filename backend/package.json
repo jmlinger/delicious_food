@@ -1,26 +1,16 @@
 {
-  "name": "grao_direto_challenge_backend",
+  "name": "delicious_food_backend",
   "version": "1.0.0",
   "description": "",
   "main": "src/api/server.js",
   "scripts": {
-    "db:reset": "npx sequelize-cli db:drop && npx sequelize-cli db:create && npx sequelize-cli db:migrate && npx sequelize-cli db:seed:all",
+    "db:create": "npx sequelize-cli db:drop && npx sequelize-cli db:create",
+    "db:reset": "npx sequelize-cli db:migrate:undo:all && npx sequelize-cli db:migrate && npx sequelize-cli db:seed:all",
     "start": "node .",
     "dev": "nodemon .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json ."
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jmlinger/grao_direto_challenge_backend.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jmlinger/grao_direto_challenge_backend/issues"
-  },
-  "homepage": "https://github.com/jmlinger/grao_direto_challenge_backend#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
@@ -31,6 +21,7 @@
     "joi": "^17.6.0",
     "jsonwebtoken": "^8.5.1",
     "mysql2": "^2.3.3",
+    "pg": "^8.8.0",
     "sequelize": "^6.21.2"
   },
   "devDependencies": {

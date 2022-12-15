@@ -4,13 +4,13 @@ const Models = require('../../database/models');
 
 const { Op } = Sequelize;
 
-function restIsUserFav(restaurants, userId, favOn) {
+function IsFavRes(restaurants, userId, favOn) {
   const verifiedRest = restaurants.map(({ dataValues }) =>
   ({ ...dataValues, favUsers: dataValues.favUsers.some(({ id }) => id === Number(userId)) }));
 
   if (favOn === 'true') {
-    const userFavRests = verifiedRest.filter(({ favUsers }) => favUsers);
-    return userFavRests;
+    const favRests = verifiedRest.filter(({ favUsers }) => favUsers);
+    return favRests;
   }
 
   return verifiedRest;
@@ -26,12 +26,12 @@ module.exports = async (query, user) => {
       [Op.or]: [
         {
           name: {
-            [Op.like]: `%${search}%`,
+            [Op.iLike]: `%${search}%`,
           },
         },
         {
           subname: {
-            [Op.like]: `%${search}%`,
+            [Op.iLike]: `%${search}%`,
           },
         },
       ],
@@ -47,7 +47,7 @@ module.exports = async (query, user) => {
   });
 
   if (restaurantsByName.length !== 0) {
-    restaurantsByName = restIsUserFav(restaurantsByName, userId, favOn);
+    restaurantsByName = IsFavRes(restaurantsByName, userId, favOn);
 
     return { status: StatusCodes.CREATED, message: { restaurants: restaurantsByName } };
   } 
@@ -68,12 +68,12 @@ module.exports = async (query, user) => {
           [Op.or]: [
             {
               name: { 
-                [Op.like]: `%${search}%`,
+                [Op.iLike]: `%${search}%`,
               },
             },
             {
               description: { 
-                [Op.like]: `%${search}%`,
+                [Op.iLike]: `%${search}%`,
               },
             },
           ],
@@ -82,7 +82,7 @@ module.exports = async (query, user) => {
     ],
   });
   
-  restaurantsByMenus = restIsUserFav(restaurantsByMenus, userId, favOn);
+  restaurantsByMenus = IsFavRes(restaurantsByMenus, userId, favOn);
 
   return { status: StatusCodes.CREATED, message: { restaurants: restaurantsByMenus } };
 };
