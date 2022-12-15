@@ -1,18 +1,8 @@
-const {
-  REACT_APP_API_URL_DEPOYED,
-  REACT_APP_API_URL_LOCAL,
-  REACT_APP_URL_DEPOYED,
-  REACT_APP_URL_LOCAL
-} = process.env;
+const { REACT_APP_NODE_ENV, REACT_APP_BACK_URI, REACT_APP_FRONT_URI } = process.env;
 
-const serverApiUrl =
-  process.env.REACT_APP_NODE_ENV === 'production'
-    ? REACT_APP_API_URL_DEPOYED
-    : REACT_APP_API_URL_LOCAL;
+const backUri = REACT_APP_NODE_ENV === 'production' ? REACT_APP_BACK_URI : 'http://localhost:3001/';
 
-const serverReactAppUrl =
-  process.env.REACT_APP_NODE_ENV === 'production'
-    ? `${REACT_APP_URL_DEPOYED}`
-    : `${REACT_APP_URL_LOCAL}`;
+const frontUri =
+  REACT_APP_NODE_ENV === 'production' ? REACT_APP_FRONT_URI : 'http://localhost:3000/';
 
-export { serverApiUrl, serverReactAppUrl };
+export { frontUri, backUri };
