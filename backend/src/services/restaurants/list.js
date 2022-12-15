@@ -1,3 +1,4 @@
+require('dotenv').config();
 const { StatusCodes } = require('http-status-codes');
 const { Sequelize } = require('../../database/models');
 const Models = require('../../database/models');
@@ -21,17 +22,19 @@ module.exports = async (query, user) => {
   const { search, favOn } = query;
   const { id: userId } = user;
 
+  const like = process.env.SQL_DIALECT === 'postgres' ? 'iLike' : 'like';
+
   let restaurantsByName = await Models.restaurants.findAll({
     where: {
       [Op.or]: [
         {
           name: {
-            [Op.iLike]: `%${search}%`,
+            [Op[like]]: `%${search}%`,
           },
         },
         {
           subname: {
-            [Op.iLike]: `%${search}%`,
+            [Op[like]]: `%${search}%`,
           },
         },
       ],
@@ -68,12 +71,12 @@ module.exports = async (query, user) => {
           [Op.or]: [
             {
               name: { 
-                [Op.iLike]: `%${search}%`,
+                [Op[like]]: `%${search}%`,
               },
             },
             {
               description: { 
-                [Op.iLike]: `%${search}%`,
+                [Op[like]]: `%${search}%`,
               },
             },
           ],
