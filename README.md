@@ -43,7 +43,7 @@ Aplicativo fullstack, totalmente responsivo, desenvolvido em React e Node.js que
 
 # A aplicação em nuvem
 
-Acesse a aplicação alocada no Vercel por <a href="https://delicious-food-frontend.vercel.app/">aqui<a/>.
+Acesse a aplicação alocada no Vercel por <a target="_blank" href="https://deliciousfood.vercel.app/">aqui<a/>.
 
 <br>  
 
@@ -52,11 +52,10 @@ Acesse a aplicação alocada no Vercel por <a href="https://delicious-food-front
 
 Para começar é necessário você ter instalado em sua máquina as seguintes ferramentas: [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e [MySQL](https://dev.mysql.com/doc/). Além disto, é importante possuir um editor de código como [VSCode](https://code.visualstudio.com/).
 
-### Rodando o servidor Back-End
-Acesse o repositório backend por <a target="_blank" href="https://deliciousfood.vercel.app/">aqui<a/>.
+### Rodando o Back-End
 
 ```bash
-# Clone o repositório backend com a chave SSH ou HTTP a depender de como seu git está configurado.
+# Clone o repositório do projeto com a chave SSH ou HTTP a depender de como seu git está configurado.
 
 # Acesse a pasta do projeto no terminal/cmd
 $ cd delicius_food
