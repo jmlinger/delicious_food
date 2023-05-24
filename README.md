@@ -43,7 +43,7 @@ Aplicativo fullstack, totalmente responsivo, desenvolvido em React e Node.js que
 
 # A aplicação em nuvem
 
-Acesse a aplicação alocada no Vercel por <a target="_blank" href="https://deliciousfood.vercel.app/">aqui<a/>.
+Acesse a aplicação alocada no Vercel por <a target="_blanck" href="https://deliciousfood.vercel.app/">aqui<a/>.
 
 <br>  
 
