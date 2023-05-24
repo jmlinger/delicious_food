@@ -53,7 +53,7 @@ Acesse a aplicação alocada no Vercel por <a href="https://delicious-food-front
 Para começar é necessário você ter instalado em sua máquina as seguintes ferramentas: [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e [MySQL](https://dev.mysql.com/doc/). Além disto, é importante possuir um editor de código como [VSCode](https://code.visualstudio.com/).
 
 ### Rodando o servidor Back-End
-Acesse o repositório backend por <a href="https://github.com/jmlinger/delicious_food_backend/">aqui<a/>.
+Acesse o repositório backend por <a target="_blank" href="https://deliciousfood.vercel.app/">aqui<a/>.
 
 ```bash
 # Clone o repositório backend com a chave SSH ou HTTP a depender de como seu git está configurado.
