@@ -47,7 +47,7 @@ Acesse a aplicação alocada no Vercel por <a target="_blanck" href="https://del
 
 <br>  
 
-# Rodando a aplicação localmente
+# Executando a aplicação localmente
 ## Pré-requisitos
 
 Para começar é necessário você ter instalado em sua máquina as seguintes ferramentas: [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e [MySQL](https://dev.mysql.com/doc/). Além disto, é importante possuir um editor de código como [VSCode](https://code.visualstudio.com/).
