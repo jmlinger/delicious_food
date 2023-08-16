@@ -2,7 +2,7 @@
 <br>
 
 # Descrição
-Aplicativo fullstack, totalmente responsivo, desenvolvido em React e Node.js que apresenta para o usuário as melhores opções de restaurantes.
+Um aplicativo full stack responsivo que mostra aos usuários uma lista de restaurantes e seus cardápios. Os usuários também podem pesquisar restaurantes por nome, tipo de comida, nome do prato ou ingredientes. Além disso, é possível marcar seus restaurantes preferidos e alterar as informações do seu perfil de usuário.
 <br>
 
 # Stacks de Desenvolvimento
