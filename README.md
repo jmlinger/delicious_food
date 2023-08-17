@@ -2,7 +2,7 @@
 <br>
 
 # Descrição
-Um aplicativo full stack responsivo que mostra aos usuários uma lista de restaurantes e seus cardápios. Os usuários também podem pesquisar restaurantes por nome, tipo de comida, nome do prato ou ingredientes. Além disso, é possível marcar seus restaurantes preferidos e alterar as informações do seu perfil de usuário.
+Uma aplicação web full stack responsiva que mostra aos usuários uma lista de restaurantes e seus cardápios. Os usuários também podem pesquisar restaurantes por nome, tipo de comida, nome do prato ou ingredientes. Além disso, é possível marcar seus restaurantes preferidos e alterar as informações do seu perfil de usuário.
 <br>
 
 # Stacks de Desenvolvimento
